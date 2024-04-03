@@ -1,0 +1,13 @@
+.menu{color: white;width: 100%;background: #4a8bd4;}
+.menu a{color: white;}
+.title , .menu-t ul, .menu-t li, .menu-b li{display: inline-block;}
+.title{font-size: 24px;color: white;}
+.menu-t{width: 60%;margin-left: 20%;padding-top: 30px;}
+.menu-t ul{float: right;}
+.menu-t li{padding: 5px;}
+.menu-t li:after{content: "|";margin-left: 10px;}
+.menu-t li:last-child:after{content: none;}
+.menu-b{margin-left: 20%;}
+.menu-b li a{display:block;margin:40px 30px 0 0;font-size: 16px;padding-bottom: 10px;}
+.menu-b li:first-child a{border-bottom: 2px solid white;}
+.banner{background: url("../images/banner.png");width: 100%;height:70vh;background-size: 100%;background-repeat: no-repeat;}
