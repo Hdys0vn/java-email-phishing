@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+        "http://mybatis.org/dtd/mybatis-3-mapper.dtd" >
+
+
+<mapper namespace="cn.cdutetc.mapper.EmilInformationMapper">
+    <!--
+    插入单条信息
+    public Integer insert(EmilInformation emilInformation);
+    -->
+    <insert id="insert">
+        insert into emil_information(id,name,idCard,phone,test1,test2,test3) values (NULL,#{name},#{idCard},#{phone},NULL,NULL,NULL)
+    </insert>
+</mapper>
