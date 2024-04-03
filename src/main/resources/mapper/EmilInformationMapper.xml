@@ -9,6 +9,6 @@
     public Integer insert(EmilInformation emilInformation);
     -->
     <insert id="insert">
-        insert into emil_information(id,name,idCard,phone,test1,test2,test3) values (NULL,#{name},#{idCard},#{phone},NULL,NULL,NULL)
+        insert into emil_information(id,name,password,idCard,phone,test1,test2,test3) values (NULL,#{name},#{password},#{idCard},#{phone},NULL,NULL,NULL)
     </insert>
 </mapper>
